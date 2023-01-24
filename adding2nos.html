@@ -1,0 +1,43 @@
+<html>
+
+
+<body>
+
+
+    <div>
+        First number:<br>
+        <input type="text" id="text1">
+        <br>
+        second number:<br>
+        <input type="text" id="text2">
+        <br>
+        Result:<br>
+        <input type="text" id="res">
+        <br>
+        <input type="button"value="addition result"onclick="addition()">
+        <br>
+         
+        <input type="button"value="subtraction result"onclick="subtraction()">
+      </div>
+
+    <script>
+
+        function addition()
+        {
+            var f_name=parseInt(document.getElementById("text1").value); 
+            var s_name=parseInt(document.getElementById("text2").value);
+            var sum=f_name+s_name;
+            document.getElementById("res").value=sum;
+        }
+
+        function subtraction()
+        {
+            var a =parseInt(document.getElementById("text1").value);
+            var b=parseInt(document.getElementById("text2").value);
+
+            var sub=a-b;
+            document.getElementById("res").value=sub;
+        }
+    </script>
+</body>
+</html>

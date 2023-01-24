@@ -1,0 +1,94 @@
+
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charseUTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>javascript</title>
+
+<style>
+    h1 {
+        text-align : center;
+        padding: 23px;
+        background-color : skyblue;
+        color:black;
+    }
+
+#clear{
+    width: 20px;
+}
+
+
+.formstyle {
+    width:300px;
+    height:530px;
+    margin :auto;
+    border:3px solid skyblue;
+    border-radius:5px;
+    padding:20px;
+
+}
+
+input{
+    width:70px;
+    background-color: plum;
+    color:black;
+    border:3px solid black;
+    border-radius: 9px;
+
+}
+
+
+#calc {
+    width:250px;
+    border-radius:3px;
+    padding: 20px;
+    margin:auto;
+
+}
+</style>
+</head>
+
+<body>
+<h1>Calculator Program in Javascript</h1>
+<br>
+<div class="formstyle">
+    <form name="form1">
+        <!--this input b0x shows the button pressed by the users in calculators-->
+        <input id ="calc" type="text" name="answer"><br>
+        <!--display the calculator buttond on the screen-->
+        <input type ="button" value="1" onclick="formal.answer.value +='1'">
+        <input type ="button" value="2" onclick="formal.answer.value +='2'">
+        <input type ="button" value="3" onclick="formal.answer.value +='3'">
+        <input type ="button" value="+" onclick="formal.answer.value +='+'">
+        <br><br>
+
+        <input type ="button" value="4" onclick="formal.answer.value +='4'">
+        <input type ="button" value="5" onclick="formal.answer.value +='5'">
+        <input type ="button" value="6" onclick="formal.answer.value +='6'">
+        <input type ="button" value="-" onclick="formal.answer.value +='-'">
+        <br><br>
+
+        <input type ="button" value="7" onclick="formal.answer.value +='7'">
+        <input type ="button" value="8" onclick="formal.answer.value +='8'">
+        <input type ="button" value="9" onclick="formal.answer.value +='9'">
+        <input type ="button" value="*" onclick="formal.answer.value +='*'">
+        <br><br>
+
+        <input type ="button" value="/" onclick="formal.answer.value +='/'">
+        <input type ="button" value="0" onclick="formal.answer.value +='0'">
+        <input type ="button" value="." onclick="formal.answer.value +='.'">
+        <input type ="button" value="=" onclick="formal.answer.value = eval(formal.answer.value)">
+
+
+
+
+
+
+
+
+    </form>
+</div>
+
+</body>
